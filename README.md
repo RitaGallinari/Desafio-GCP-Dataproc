@@ -12,7 +12,8 @@ Criar um bucket no Cloud Storage
 Atualizar o arquivo contador.pycom o nome do Bucket criado nas linhas que contém {SEU_BUCKET}.
 
 Fazer o upload dos arquivos contador.pye livro.txtpara o bucket criado (instruções abaixo)
-https://cloud.google.com/storage/docs/uploading-objects
+
+**https://cloud.google.com/storage/docs/uploading-objects
 
 Use o código em um clusterproc, S um Job do tipo P inteligentepark gs://{SEU_BUCKET}/contador.py
 
