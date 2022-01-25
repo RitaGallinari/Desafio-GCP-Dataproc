@@ -28,14 +28,22 @@ I1nclua os arquivos resultado.txte part-00000no conhecimento e informar na plata
 
 ## Execução
 1 - Criar Cluste
+
 2 - Ativar o Cloud  Shell
+
 3 - Copiar code github e clonar --> git clone  https://github.com/marcelomarques05/dio-desafio-dataproc.git
+
 4 - Ir para o diretório - cd dio-desafio-dataproc/ 
+
 5 - Listar o conteudo da pasta -->ls -ln
+
 6 - Validar criação do bucket - > gsutil ls
+
 7 - Atualizar o arquivo contador.py  --> vim contador.py
 "gs//..../livro.txt
+
 8 - Upload - --> gsutil cp contador.py livro.txt gs://desafio-dataproc22/
+
 9 -  Direcionar ao /cluster - > Jobs - > enviar jobs -->Job-desafio
 cluster - > clus-desafio-dataproc
 tipodedejob->PySpark
