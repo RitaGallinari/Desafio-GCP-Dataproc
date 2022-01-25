@@ -49,3 +49,7 @@ cluster - > clus-desafio-dataproc
 tipodedejob->PySpark
 
 arquioprincipal-> gs://desafio-dataproc22/contador.py - > ## Enviar
+
+10 - Cloud Storage - > bucket  - > desafio-dataproc-> resultado
+
+11- Entrega arquivo resultado.txt com as 10 palavras mais utilizadas
